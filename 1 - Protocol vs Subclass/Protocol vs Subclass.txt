@@ -1,0 +1,18 @@
+
+PROTOCOLS
+
+Protocols are a way of enforcing certain methods to be utilized, regardless of the actual class the object is part of,
+thus ensuring that a certain form of method template is implemented. A protocol is a group of related properties and 
+methods that can be implemented by any class. They are more flexible than a normal class interface, since they let you 
+reuse a single API declaration in completely unrelated classes. This makes it possible to represent horizontal relationships 
+on top of an existing class hierarchy. Protocols also have an optional property which allows user to implement the method 
+only if they want to.
+
+SUBCLASS
+
+A subclass is a class definition that inherits the definition of a superclass. All of the methods that are defined in 
+the superclass are automatically defined in the subclass. A real world analogy between a superclass and a subclass is 
+the definition of a smart phone, and an iPhone. Smart phone would be a superclass that might define a method to 
+“place a call”, while iPhone might define more specific methods to “open iTunes” and would not have to re-define 
+the generic smart phone methods like the need to place a call.
+
