@@ -12,7 +12,7 @@
 	return [side doubleValue]; //to retrieve its value as it is used as double here
 }
 
--(double)area
+-(double)area //has to be overriden as its inheriting a protocol
 {
 	double value = [side doubleValue];
 	return value * value; //return area
