@@ -5,7 +5,7 @@
 
 @synthesize radius;
 
--(double)area
+-(double)area //has to be overriden as its inheriting a protocol
 {
 	return M_PI * radius * radius;
 }
