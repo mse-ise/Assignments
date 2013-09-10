@@ -18,7 +18,7 @@ int main(int argc, const char* argv[])
 	NSLog(@"The dictionary items containing \"meter\":\n");
 	for(NSString* key in units)
 	{
-		if ([key hasSuffix:@"meter"].location != NSNotFound)
+		if ([key hasSuffix:@"meter"])
 		{
 			NSLog(@"Unit: %@, Value: %@\n", key, [units objectForKey:key]);
 		}
